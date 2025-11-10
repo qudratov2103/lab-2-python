@@ -1,5 +1,5 @@
 class CatCommand(Command):
-    """команда cat"""
+    """Команда cat"""
     
     def execute(self, args):
         if not args:

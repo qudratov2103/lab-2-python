@@ -1,5 +1,5 @@
 class ListCommand(Command):
-    """комманда ls"""
+    """Команда ls"""
     
     def execute(self, args):
         path = self.shell.current_dir

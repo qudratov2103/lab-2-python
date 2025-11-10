@@ -1,5 +1,5 @@
 class ChangeDirectoryCommand(Command):
-    """Комманда cd"""
+    """Команда cd"""
     
     def execute(self, args):
         path = args[0] if args else "~"
